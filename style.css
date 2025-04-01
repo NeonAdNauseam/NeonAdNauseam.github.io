@@ -257,8 +257,8 @@ nav a img {
 }
 
 a{
-  transition : transform 1s,
-    background 1s,
+  transition : transform .5s,
+    background .5s,
 }
 
 a:hover {
