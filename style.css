@@ -318,8 +318,9 @@ div p {
   width: 100%; /* Ensure the image takes up the full width of the container */
   height: 100%; /* Ensure the image takes up the full height of the container */
   flex-shrink: 0;
-  object-fit: cover; /* Ensure the image fills the container without distortion */
+  object-fit: fill; /* Ensure the image fills the container without distortion */
   position: relative; /* Remove bottom shifting */
+  top: -190px
 }
 
 /* Triangular navigation buttons */
