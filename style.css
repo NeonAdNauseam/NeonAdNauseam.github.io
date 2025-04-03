@@ -391,16 +391,17 @@ div p {
 
 .about {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 2em;
 }
 
-.bioContainer {
+.headerContainer {
   background-color: #00a2ff;
   border-radius: 25px;
   padding: 2em 2em 2em 2em;
-  margin-top: 2em;
+  margin-top: 10em;
   display: flex;
   justify-items: center;
   justify-content: center;
@@ -409,6 +410,18 @@ div p {
 }
 
 .headerTwo {
-  font: var(--headerfont);
+  font-family: var(--headerfont);
   color: white;
+}
+
+.bioContainer {
+  background-color: var(--tabcontainer-color);
+  border-radius: 25px;
+  padding: 2em 2em 2em 2em;
+  margin-top: 6em;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  width: 50%;
+  
 }
