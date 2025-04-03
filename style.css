@@ -388,3 +388,27 @@ div p {
   box-shadow: 0px 0px 30px rgba(0,0,0, 0.6);
   cursor: pointer;
 }
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.bioContainer {
+  background-color: #00a2ff;
+  border-radius: 25px;
+  padding: 2em 2em 2em 2em;
+  margin-top: 2em;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  width: 50%;
+  
+}
+
+.headerTwo {
+  font: var(--headerfont);
+  color: white;
+}
