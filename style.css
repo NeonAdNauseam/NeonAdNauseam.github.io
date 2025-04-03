@@ -405,7 +405,7 @@ div p {
   display: flex;
   justify-items: center;
   justify-content: center;
-  width: 50%;
+  width: 30%;
   
 }
 
@@ -424,5 +424,4 @@ div p {
   justify-items: center;
   justify-content: center;
   width: 50%;
-  
 }
