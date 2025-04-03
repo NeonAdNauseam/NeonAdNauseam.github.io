@@ -420,6 +420,7 @@ div p {
   padding: 2em 2em 2em 2em;
   margin-top: 6em;
   display: flex;
+  flex-direction: column;
   justify-items: center;
   justify-content: center;
   width: 50%;
